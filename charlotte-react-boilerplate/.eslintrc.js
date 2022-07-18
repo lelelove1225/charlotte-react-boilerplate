@@ -24,6 +24,7 @@ module.exports = {
     sourceType: "module",
     tsconfigRootDir: __dirname,
   },
+  ignorePatterns: ["node_modules/", "dist/", "tailwind.config.js"],
   plugins: ["import", "jsx-a11y", "react", "react-hooks", "@typescript-eslint"],
   root: true,
   rules: {
